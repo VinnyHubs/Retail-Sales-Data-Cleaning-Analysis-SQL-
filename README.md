@@ -12,7 +12,9 @@ In real businesses, raw data often contains missing values, duplicates, and inco
 The goal of this project was to:
 
 --Build a relational retail database
+
 --Clean and standardize inconsistent data
+
 --Generate insights on sales performance, customer behavior, and returns
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
