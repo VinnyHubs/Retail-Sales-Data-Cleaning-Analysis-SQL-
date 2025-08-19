@@ -1,41 +1,81 @@
-📝 Project Description
+🛒 Retail Sales Database – SQL Project
+📌 Overview
 
-This project focuses on building and analyzing a retail sales database while tackling the real-world challenges of messy and inconsistent data. In many organizations, raw data often comes with missing values, duplicate records, irregular date formats, and incomplete information, making it difficult to derive accurate business insights. The aim of this project was to design a relational database, apply data cleaning techniques, and generate valuable insights that can support better decision-making in a retail environment.
+This project demonstrates the design and analysis of a retail sales database using SQL. It focuses on data cleaning, transformation, and analytics to simulate real-world business challenges.
 
-The database was designed using five interconnected tables:
+The project highlights how SQL can be applied to handle messy datasets (nulls, duplicates, inconsistent formats) and generate business insights such as top-selling products, store revenue, return rates, and sales trends.
 
-Customers (prac_cx) – storing customer details with intentional duplicates, missing emails, phone numbers, and inconsistent signup dates.
+🎯 Problem Statement
 
-Products (prac_pro) – maintaining product catalog with categories, prices, and stock levels.
+In real businesses, raw data often contains missing values, duplicates, and inconsistent formats, making it unreliable for decision-making.
+The goal of this project was to:
 
-Orders (prac_ord) – containing customer orders with multiple inconsistent date formats.
+Build a relational retail database.
 
-Order Items (prac_ord_items) – recording product-level quantities per order.
+Clean and standardize inconsistent data.
 
-Returns (prac_returns) – tracking returned items with reasons and irregular return dates.
+Generate insights that help understand sales performance, customer behavior, and returns.
 
-After designing the schema and populating it with realistic yet messy data, the project moved to the data cleaning stage. Key cleaning tasks included:
+🔍 Approach
 
-Replacing null phone numbers and emails with standardized defaults.
+Database Design
 
-Identifying and handling duplicate customer records.
+Created 5 tables:
 
-Fixing inconsistent date formats using SQL functions and storing them in a cleaned column.
+prac_cx → Customers
 
-Preserving records with both email and phone missing as exceptions for further manual review.
+prac_pro → Products
 
-Once the dataset was standardized, advanced SQL queries were written to generate business insights, such as:
+prac_ord → Orders
 
-Identifying the top 3 and bottom 3 selling products.
+prac_ord_items → Order Items
 
-Analyzing store-wise sales performance and returns.
+prac_returns → Returns
 
-Calculating the overall return rate and examining reasons for product returns.
+Data Cleaning
 
-Tracking monthly revenue trends across store locations.
+Replaced null values in phone/email with defaults.
 
-Providing detailed insights at the customer-product level for returned orders.
+Managed duplicate records.
 
-Through this project, I strengthened my expertise in SQL (joins, aggregations, CTEs, window functions, and conditional logic) while simulating challenges faced in real business scenarios. The outcome was a cleaned, analysis-ready dataset capable of providing meaningful insights into customer behavior, sales performance, and operational efficiency.
+Fixed inconsistent date formats with SQL functions.
 
-Overall, this project demonstrates the end-to-end process of data cleaning, transformation, and analytics in SQL, bridging the gap between raw data and actionable business intelligence.
+Preserved incomplete records for manual review.
+
+Analysis & Insights
+
+Top 3 and bottom 3 selling products.
+
+Store-wise revenue and return counts.
+
+Monthly revenue trends across locations.
+
+Overall return rate with reasons.
+
+Customer + product + return details.
+
+📊 Key Insights
+
+✅ Cleaned dataset ready for analysis.
+
+📈 Identified sales trends and top-performing stores.
+
+🔄 Calculated return rates and linked reasons to customers/products.
+
+🛒 Revealed customer purchasing behavior.
+
+🛠️ Tech Stack
+
+SQL Server / PostgreSQL
+
+SQL Concepts: Joins, Aggregations, Window Functions, CTEs, Data Cleaning
+
+📂 Files in Repository
+
+freelance_project_create_table.sql → Database schema + sample data + queries
+
+insights_queries.sql → Business insights SQL scripts
+
+🚀 Outcome
+
+This project showcases end-to-end SQL skills from database creation to data cleaning and advanced analytics, bridging the gap between raw data and actionable business intelligence.
