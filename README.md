@@ -1,10 +1,3 @@
-🛒 Retail Sales Database – SQL Project
-📌 Overview
-
-This project demonstrates the design and analysis of a retail sales database using SQL. It focuses on data cleaning, transformation, and analytics to simulate real-world business challenges.
-
-The project highlights how SQL can be applied to handle messy datasets (nulls, duplicates, inconsistent formats) and generate business insights such as top-selling products, store revenue, return rates, and sales trends.
-
 🎯 Problem Statement
 
 In real businesses, raw data often contains missing values, duplicates, and inconsistent formats, making it unreliable for decision-making.
@@ -22,60 +15,56 @@ Database Design
 
 Created 5 tables:
 
-prac_cx → Customers
+  prac_cx → Customers
 
-prac_pro → Products
+  prac_pro → Products
 
-prac_ord → Orders
+  prac_ord → Orders
 
-prac_ord_items → Order Items
+  prac_ord_items → Order Items
 
-prac_returns → Returns
+  prac_returns → Returns
 
 Data Cleaning
 
-Replaced null values in phone/email with defaults.
+  Replaced null values in phone/email with defaults.
 
-Managed duplicate records.
+  Managed duplicate records.
 
-Fixed inconsistent date formats with SQL functions.
+  Fixed inconsistent date formats with SQL functions.
 
-Preserved incomplete records for manual review.
+  Preserved incomplete records for manual review.
 
 Analysis & Insights
 
-Top 3 and bottom 3 selling products.
+  Top 3 and bottom 3 selling products.
 
-Store-wise revenue and return counts.
+  Store-wise revenue and return counts.
 
-Monthly revenue trends across locations.
+  Monthly revenue trends across locations.
 
-Overall return rate with reasons.
+  Overall return rate with reasons.
 
-Customer + product + return details.
+  Customer + product + return details.
 
 📊 Key Insights
 
-✅ Cleaned dataset ready for analysis.
+  ✅ Cleaned dataset ready for analysis.
+  
+  📈 Identified sales trends and top-performing stores.
 
-📈 Identified sales trends and top-performing stores.
+  🔄 Calculated return rates and linked reasons to customers/products.
 
-🔄 Calculated return rates and linked reasons to customers/products.
-
-🛒 Revealed customer purchasing behavior.
+  🛒 Revealed customer purchasing behavior.
 
 🛠️ Tech Stack
 
-SQL Server / PostgreSQL
+  SQL Server / PostgreSQL
 
-SQL Concepts: Joins, Aggregations, Window Functions, CTEs, Data Cleaning
+  SQL Concepts: Joins, Aggregations, Window Functions, CTEs, Data Cleaning
 
 📂 Files in Repository
 
-freelance_project_create_table.sql → Database schema + sample data + queries
+  freelance_project_create_table.sql → Database schema + sample data + queries
 
-insights_queries.sql → Business insights SQL scripts
-
-🚀 Outcome
-
-This project showcases end-to-end SQL skills from database creation to data cleaning and advanced analytics, bridging the gap between raw data and actionable business intelligence.
+  insights_queries.sql → Business insights SQL scripts
