@@ -40,8 +40,11 @@ The goal of this project was to:
 📊 Key Insights
 
 --✅ Clean dataset ready for analysis
+
 --📈 Identified sales trends and top-performing stores
+
 --🔄 Calculated return rates and linked reasons to customers/products
+
 --🛒 Revealed customer purchasing behavior
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,6 +52,7 @@ The goal of this project was to:
 🛠️ Tech Stack
 
 --SQL Server / PostgreSQL
+
 --SQL concepts: Joins, Aggregations, Window Functions, CTEs, Data Cleaning
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -56,6 +60,7 @@ The goal of this project was to:
 📂 Files in Repository
 
 --freelance_project_create_table.sql → Database schema + sample data + queries
+
 --insights_queries.sql → Business insights SQL scripts
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
