@@ -28,8 +28,11 @@ The goal of this project was to:
 3. Analysis & Insights – Generated insights such as:
 
 --Top/Bottom selling products
+
 --Store-wise revenue and return counts
+
 --Monthly revenue trends
+
 --Return rate with customer & product details
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
