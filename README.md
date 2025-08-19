@@ -11,7 +11,7 @@ The project highlights how SQL can handle messy datasets (nulls, duplicates, inc
 In real businesses, raw data often contains missing values, duplicates, and inconsistent formats, making it unreliable for decision-making.
 The goal of this project was to:
 
---Build a relational retail database
+  --Build a relational retail database
 
 --Clean and standardize inconsistent data
 
