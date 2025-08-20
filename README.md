@@ -51,7 +51,7 @@ The goal of this project was to:
 
 🛠️ Tech Stack
 
---SQL Server / PostgreSQL
+--SQL Server 
 
 --SQL concepts: Joins, Aggregations, Window Functions, CTEs, Data Cleaning
 
